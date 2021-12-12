@@ -8,7 +8,7 @@ public class SolutionTest {
 
     @Test
     public void test1() {
-        int[] testingArray = new int[]{1, 1, 1, 2, 2, 3, 5, 6};
+        int[] testingArray = {1, 1, 1, 2, 2, 3, 5, 6};
         int expectedResult = 3;
         int factualResult = solution.countMaxAmountOfIdenticalNumbersInRow(testingArray);
 
@@ -17,7 +17,7 @@ public class SolutionTest {
 
     @Test
     public void test2() {
-        int[] testingArray = new int[]{2, 2, 1, 3, 2, 8, 9};
+        int[] testingArray = {2, 2, 1, 3, 2, 8, 9};
         int expectedResult = 2;
         int factualResult = solution.countMaxAmountOfIdenticalNumbersInRow(testingArray);
 
